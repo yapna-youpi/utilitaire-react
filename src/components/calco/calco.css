@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#containeur{
+    z-index: 1100;
+}
+.ligne{
+    display: flex;justify-content: center;margin-top: 100px;
+}
+.calco{
+    width: 400px;height: 450px;border: 2px solid teal;padding: 0;margin-top: auto;margin-bottom: auto;
+}
+.ecran{
+    width: 100%;height: 72px;border: 1px solid black;
+}
+.ecran_haut{
+    width: 100%;height: 42px;
+}
+.ecran_bas{
+    width: 100%;height: 30px;background: slategray;
+}
+.lig1{
+    width: 100%;height: 75px;background: rgb(12, 40, 53);color:white;display: flex;line-height: 75px;font-size: 22px;display: flex;
+}
+.corps{
+    display: flex;color: white!important;
+}
+.colone1{
+    width: 75%;margin-right: 0;
+}
+.colone2{
+   width: 28%;background: rgb(12, 40, 53);
+    color: white;margin-left: 0;
+}
+.col1{
+    color: white; font-size: large;
+    width: 33.3%;border: 1px solid black;display: flex;justify-content: center;align-items: center;background: rgb(12, 40, 53);
+}
+.col1:active
+{
+    width: 33.3%;border: 1px solid black;display: flex;justify-content: center;align-items: center;background: deepskyblue;transition: .1s;
+}
+.col2{
+    width: 100%;border: 1px solid black;height: 75px;display: flex;justify-content: center;align-items: center;line-height: 75px;
+}
+.col2:active
+{
+    width: 100%;border: 1px solid black;height: 75px;background: deepskyblue;display: flex;justify-content: center;align-items: center;
+}
+#reset{
+    background: deeppink;width: 50%;display: flex;justify-content: center;align-items: center;
+}
+#egal{
+    color: white; font-size: large;
+    background: deepskyblue;display: flex;justify-content: center;align-items: center;
+}
+#plus{
+    color: white; font-size: large;
+    height: 150px;display: flex;justify-content: center;align-items: center;background: rgb(12, 40, 53);
+}
+#moin{
+    color: white; font-size: large;
+    background: rgb(12, 40, 53);
+}
+#etoil{
+    width: 28%;
+}
+#slach{
+    width: 25%;
+}
+.inpu{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    line-height: 45px;
+    scroll-behavior: smooth;
+    padding: auto 20px;
+}
